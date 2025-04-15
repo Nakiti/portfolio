@@ -27,7 +27,7 @@ const MashPage = () => {
 
          {/* GitHub Link */}
          <a
-            href="https://github.com/yourusername/fundraising"
+            href="https://github.com/nakiti/fundraising"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-teal-400 hover:underline text-lg mb-6"

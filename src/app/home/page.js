@@ -7,6 +7,15 @@ import { useEffect } from "react";
 
 const projectData = [
    {
+      title: "Fundraising CMS",
+      imagePath: "/fundraising-1.png",
+      description: `
+         Developed a fundraising platform allowing for users to create campaigns and donation pages from a variety of templates. Similar to the Classy.org Platform
+      `,
+      techStack: ["React JS", "Next JS", "Node JS", "Express JS", "Azure RDS", "MySQL", "TailwindCSS", "Axios"],
+      link: "/home/projects/fundraiser"
+   },
+   {
       title: "Mash",
       imagePath: "/mash-1.png",
       description: `
@@ -14,15 +23,6 @@ const projectData = [
       `,
       techStack: ["React JS", "Node JS", "Express JS", "MySQL", "Heroku", "TailwindCSS"],
       link: "/home/projects/mash"
-   },
-   {
-      title: "Ecommerce Aggregator",
-      imagePath: "/ecommerce-1.png",
-      description: `
-         Built a full-stack web platform that consolidates clothing from multiple brands, allowing users to browse, save, and manage favorites in one place. Designed a web scraper in python to get up-to-date data.
-      `,
-      techStack: ["React JS", "Next JS", "Express JS", "Node JS", "Express JS", "MySQL", "Heroku", "Python", "Beautiful Soup"],
-      link: "/home/projects/ecommerce"
    },
    {
       title: "Note-ify",
@@ -34,17 +34,34 @@ const projectData = [
       link: "/home/projects/noteify"
    },
    {
-      title: "Fundraising CMS",
-      imagePath: "/fundraising-1.png",
+      title: "Ecommerce Aggregator",
+      imagePath: "/ecommerce-1.png",
       description: `
-         Developed a fundraising platform allowing for users to create campaigns and donation pages from a variety of templates. Similar to the Classy.org Platform
+         Built a full-stack web platform that consolidates clothing from multiple brands, allowing users to browse, save, and manage favorites in one place. Designed a web scraper in python to get up-to-date data.
       `,
-      techStack: ["React JS", "Next JS", "Node JS", "Express JS", "Azure RDS", "MySQL", "TailwindCSS", "Axios"],
-      link: "/home/projects/fundraiser"
+      techStack: ["React JS", "Next JS", "Express JS", "Node JS", "Express JS", "MySQL", "Heroku", "Python", "Beautiful Soup"],
+      link: "/home/projects/ecommerce"
+   },
+   {
+      title: "For Scale Extension",
+      imagePath: "/forscale-1.jpg",
+      description: `
+         Developed a chrome extension to simplify obscure measurements by representing them in terms of familiar objects/concepts
+      `,
+      techStack: ["Javascript", "HTML", "CSS", "Google Chrome Extension API"],
+      link: "/home/projects/forscale"
    }
 ]
 
 const experienceData = [
+   {
+      title: "Computer Support Assistant",
+      company: "UCSD",
+      date: "MAR 2025 - PRESENT",
+      description: "I provided front-line user support for production computing facilities. I also installed and maintained hardware and software, such as application software and peripheral devices (printers, scanners, handheld devices), while troubleshooting network and system issues.",
+      techStack: ["Problem Solving", "Communication", "IT skills"],
+      link: "https://cse.ucsd.edu/"
+   },
    {
       title: "Undergraduate Research Assistant",
       company: "UCSD",
@@ -52,14 +69,6 @@ const experienceData = [
       description: "I contributed to the implementation and debugging of a modified Rust object-relational mapping (ORM) library with generic refinements to enforce data invariants and detect errors at compile time. Published in a paper.",
       techStack: ["Rust", "Haskell", "Diesel ORM", "Rocket.rs", "PostgreSQL"],
       link: "https://dl.acm.org/doi/10.1145/3704885"
-   },
-   {
-      title: "Computer Support Assistant",
-      company: "UCSD",
-      date: "MAR 2025 - PRESENT",
-      description: "I provided front-line user support for production computing facilities. I also installed and maintained hardware and software, such as application software and peripheral devices (printers, scanners, handheld devices), while troubleshooting network and system issues.",
-      // techStack: ["Rust", "Haskell", "Diesel ORM", "Rocket.rs", "PostgeSQL"]
-      link: "https://cse.ucsd.edu/"
    },
    {
       title: "Summer Intern",

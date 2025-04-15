@@ -13,7 +13,7 @@ const ProjectCard = ({title, imagePath, description, techStack, link}) => {
          <div className="flex-shrink-0 w-[220px] h-[130px] relative rounded-xl overflow-hidden text-white">
             <Image
                src={imagePath}
-               alt="Build a Spotify Connected App"
+               alt="Image"
                fill
                className="object-contain"
             />
