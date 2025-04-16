@@ -1,7 +1,7 @@
 "use client"
-import ExperienceCard from "../components/experienceCard";
-import ProjectCard from "../components/projectCard";
-import { useRefs } from "../context/refsContext";
+import ExperienceCard from "./components/experienceCard";
+import ProjectCard from "./components/projectCard";
+import { useRefs } from "./context/refsContext";
 import { useSearchParams } from "next/navigation";
 import { useEffect } from "react";
 
@@ -13,7 +13,7 @@ const projectData = [
          Developed a fundraising platform allowing for users to create campaigns and donation pages from a variety of templates. Similar to the Classy.org Platform
       `,
       techStack: ["React JS", "Next JS", "Node JS", "Express JS", "Azure RDS", "MySQL", "TailwindCSS", "Axios"],
-      link: "/home/projects/fundraiser"
+      link: "/projects/fundraiser"
    },
    {
       title: "Mash",
@@ -22,7 +22,7 @@ const projectData = [
          Developed a full-stack web application (gaining over 50,000 visits) that uses the Elo ranking algorithm to generate crowdsourced rankings across hundreds of datasets. Users repeatedly choose between two options, and their input contributes to a dynamic, community-driven leaderboard.
       `,
       techStack: ["React JS", "Node JS", "Express JS", "MySQL", "Heroku", "TailwindCSS"],
-      link: "/home/projects/mash"
+      link: "/projects/mash"
    },
    {
       title: "Note-ify",
@@ -31,7 +31,7 @@ const projectData = [
          Created a cross-platform mobile app that helps users study with custom flashcards delivered via notifications on a personalized schedule. 
       `,
       techStack: ["React Native", "Expo API"],
-      link: "/home/projects/noteify"
+      link: "/projects/noteify"
    },
    {
       title: "Ecommerce Aggregator",
@@ -40,7 +40,7 @@ const projectData = [
          Built a full-stack web platform that consolidates clothing from multiple brands, allowing users to browse, save, and manage favorites in one place. Designed a web scraper in python to get up-to-date data.
       `,
       techStack: ["React JS", "Next JS", "Express JS", "Node JS", "Express JS", "MySQL", "Heroku", "Python", "Beautiful Soup"],
-      link: "/home/projects/ecommerce"
+      link: "/projects/ecommerce"
    },
    {
       title: "For Scale Extension",
@@ -49,7 +49,7 @@ const projectData = [
          Developed a chrome extension to simplify obscure measurements by representing them in terms of familiar objects/concepts
       `,
       techStack: ["Javascript", "HTML", "CSS", "Google Chrome Extension API"],
-      link: "/home/projects/forscale"
+      link: "/projects/forscale"
    }
 ]
 

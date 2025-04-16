@@ -15,16 +15,17 @@ const SideBar = () => {
    };
 
    const handleNavClick = (id, ref) => {
-      if (pathname === "/home") {
+      console.log(pathname)
+      if (pathname == "/") {
          scrollTo(ref);
       } else {
-         router.push(`/home`);
+         router.push(`/`);
       }
    };
 
    const linkClass = (id) =>
       `block text-left w-full pl-3 transition-all duration-200 uppercase ${
-         activeSection === id && pathname == "/home"
+         activeSection === id && pathname == "/"
             ? 'text-white border-l-2 border-slate-100 font-semibold tracking-wider'
             : 'text-slate-400 hover:text-white'
       }`;
@@ -32,7 +33,7 @@ const SideBar = () => {
    return (
       <div className="flex flex-col justify-between h-full px-8 py-12 text-slate-300 bg-[#0a192f]">
          <div>
-            <Link href="/home">
+            <Link href="/">
                <h1 className="text-5xl font-bold text-slate-100 mb-2 mt-16">
                   Hello, I'm Nikhil
                </h1>

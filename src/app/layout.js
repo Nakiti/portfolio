@@ -1,7 +1,7 @@
 'use client';
-import "../globals.css";
-import SideBar from '../SideBar';
-import { RefsContext } from '../context/refsContext';
+import "./globals.css";
+import SideBar from './SideBar';
+import { RefsContext } from './context/refsContext';
 import { useRef, useEffect, useState } from 'react';
 
 export default function RootLayout({ children }) {
@@ -90,7 +90,7 @@ export default function RootLayout({ children }) {
 
                {/* Main Content */}
                <main className="bg-[#0a192f] flex-1 h-full overflow-y-auto px-6 sm:px-10 py-8 md:px-20 md:py-20">
-               <div className="flex flex-col gap-16">{children}</div>
+                  <div className="flex flex-col gap-16">{children}</div>
                </main>
             </div>
          </RefsContext.Provider>
